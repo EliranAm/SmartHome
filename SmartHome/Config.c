@@ -1,0 +1,100 @@
+<HOME>
+  <FLOOR>
+    <NUMBER> F1 </NUMBER>
+    <ROOM>
+      <NUMBER> R1 </NUMBER>
+      <SENSOR>
+        <NAME> TEMP </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> OVER30 </ARGUMENT>
+        <PRIORITY> 3 </PRIORITY>
+        <ARGUMENT> LESS20 </ARGUMENT>
+        <PRIORITY> 3 </PRIORITY>
+      </SENSOR>
+      <SENSOR>
+        <NAME> SMOK </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> FIRE </ARGUMENT>
+        <PRIORITY> 10 </PRIORITY>
+        <ARGUMENT> NOFIRE </ARGUMENT>
+        <PRIORITY> 7 </PRIORITY>        
+      </SENSOR>
+      <DEVICE>
+        <NAME> AICO </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> TEMPF1R1N1OVER30 </ARGUMENT>
+        <ARGUMENT> TEMPF1R1N1LESS20 </ARGUMENT>
+        <ARGUMENT> SMOKF1R1N1 </ARGUMENT>
+      </DEVICE>
+      <DEVICE>
+        <NAME> FIRE </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> SMOKF1R1N1 </ARGUMENT>
+      </DEVICE>
+    </ROOM>
+
+    <ROOM>
+      <NUMBER> R2 </NUMBER>
+      <SENSOR>
+        <NAME> TEMP </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> OVER30 </ARGUMENT>
+        <PRIORITY> 3 </PRIORITY>
+        <ARGUMENT> LESS20 </ARGUMENT>
+        <PRIORITY> 3 </PRIORITY>
+      </SENSOR>
+      <SENSOR>
+        <NAME> SMOK </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> FIRE </ARGUMENT>
+        <PRIORITY> 10 </PRIORITY>
+        <ARGUMENT> NOFIRE </ARGUMENT>
+        <PRIORITY> 7 </PRIORITY>        
+      </SENSOR>
+      <DEVICE>
+        <NAME> AICO </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> TEMPF1R2N1OVER30 </ARGUMENT>
+        <ARGUMENT> TEMPF1R2N1LESS20 </ARGUMENT>
+        <ARGUMENT> SMOKF1R2N1 </ARGUMENT>
+      </DEVICE>
+      <DEVICE>
+        <NAME> FIRE </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> SMOKF1R2N1 </ARGUMENT>
+      </DEVICE>
+    </ROOM>
+
+    <ROOM>
+      <NUMBER> R3 </NUMBER>
+      <SENSOR>
+        <NAME> TEMP </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> OVER30 </ARGUMENT>
+        <PRIORITY> 3 </PRIORITY>
+        <ARGUMENT> LESS20 </ARGUMENT>
+        <PRIORITY> 3 </PRIORITY>
+      </SENSOR>
+      <SENSOR>
+        <NAME> SMOK </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> FIRE </ARGUMENT>
+        <PRIORITY> 10 </PRIORITY>
+        <ARGUMENT> NOFIRE </ARGUMENT>
+        <PRIORITY> 7 </PRIORITY>        
+      </SENSOR>
+      <DEVICE>
+        <NAME> AICO </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> TEMPF1R3N1OVER30 </ARGUMENT>
+        <ARGUMENT> TEMPF1R3N1LESS20 </ARGUMENT>
+        <ARGUMENT> SMOKF1R3N1 </ARGUMENT>
+      </DEVICE>
+      <DEVICE>
+        <NAME> FIRE </NAME>
+        <NUMBER> N1 </NUMBER>
+        <ARGUMENT> SMOKF1R3N1 </ARGUMENT>
+      </DEVICE>
+    </ROOM>
+  </FLOOR>
+</HOME>
