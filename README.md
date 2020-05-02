@@ -10,4 +10,4 @@ The project written in C++ and run in a multi-threaded environment.
 
 How to Run:
 Make the makefile in SmartHome/Smarthome folder to build the application.
-The application compile and run on Linux OS.
+The application compiled and tested on Ubuntu 14.0.4, g++ 4.8.4.
